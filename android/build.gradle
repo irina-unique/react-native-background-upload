@@ -1,13 +1,13 @@
 buildscript {
     ext {
-        agp_version = '7.4.2'
-        kotlin_version = '1.9.0'
+        agpVersion = '7.4.2'
+        kotlinVersion = '1.9.0'
         buildToolsVersion = '29.0.2'
         compileSdkVersion = 29
         targetSdkVersion = 29
         minSdkVersion = 18
     }
-    ext.detoxKotlinVersion = ext.kotlin_version
+    ext.detoxKotlinVersion = ext.kotlinVersion
 
     repositories {
         mavenCentral()
